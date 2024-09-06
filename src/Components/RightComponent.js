@@ -66,8 +66,8 @@ const RightComponent= () =>{
                   onClick={handleChange3}
                 >Recomanded</button>
             </nav>
-            <header className="flex justify-between px-2" >
-             <img src={image} alt="random" className="w-[24px] h-[110.69px] absolute top-[85px]" />
+            <header className="flex  px-2" >
+             <img src={image} alt="random" className="w-[24px] h-[110.69px] flex-start absolute top-[102px]" />
             {
                 isActive1 && <p className="mx-auto text-white text-[14px] px-8 ">Hello! I'm Riyaz Sheikh and i'm a highly motivated and detail-oriented full-stack developer,
                 I bring a passion for creating innovative and scalable solutions to the table. With a strong foundation in  front-end.
@@ -83,11 +83,12 @@ const RightComponent= () =>{
               systems."</p>
             }
               
-            <div className="w-[8px] h-[64px] rounded-[8px] absolute right-[62px]" style={{ background: "linear-gradient(177.32deg, #888989 5.6%, #4A4E54 93.28%)", boxShadow: "4px 4px 4.9px 0px #00000040", }} >
+            <div className="w-[8px] h-[64px] rounded-[8px] p-[6px] flex-end" style={{ background: "linear-gradient(177.32deg, #888989 5.6%, #4A4E54 93.28%)", boxShadow: "4px 4px 4.9px 0px #00000040", }} >
             </div>
              
          </header>
           </div>
+     
           <div className="w-[412px] h-[4px] rounded-[2.46px] mx-auto"
              style={{
                 background: `
@@ -98,10 +99,10 @@ const RightComponent= () =>{
               }}
           >
            </div>
-          <div className=" rounded-[18.89px] h-[180px] bg-[#363C43] px-2"
+          <div className=" rounded-[18.89px] h-[180px] bg-[#363C43] px-2 "
               style={{boxShadow:"5.67px 5.67px 3.78px 0px #00000066"}}>
 
-           <img src={image} alt="random" className="w-[24px] h-[110.69px] absolute bottom-[180px]" />
+           <img src={image} alt="random" className="w-[24px] h-[110.69px]  flex-start absolute top-[295px] " />
 
            <div className="flex  justify-between mx-8 p-2 px-4 ">
             <button className=" bg-[#171717] text-white w-[110px] h-[38px] rounded-[12px] text-[14px] transition-transform duration-200 active:scale-110 "
